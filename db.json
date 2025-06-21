@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "03ca41c8-9df0-437b-a6ed-2d917e67b333",
+      "name": "Vintage Industries Mallow Pants",
+      "type": "Pant",
+      "description": "1.100% cotton twill\n2.enzyme washed\n3.heavy heringbone 4.pocketing\n5.2 side pockets\n4.zip fly",
+      "cover": "https://www.fc-moto.de/WebRoot/FCMotoDB/Shops/10207048/58C2/DDD2/654C/35C1/FB65/4DEB/AE70/C4FE/1033_Mallow_pant_fox_neu_ml.jpg",
+      "gallery": [
+        {
+          "id": "9df721dd-9e74-4ac3-ae27-c638724f2e63",
+          "url": "https://www.fc-moto.de/WebRoot/FCMotoDB/Shops/10207048/58C2/DDD2/654C/35C1/FB65/4DEB/AE70/C4FE/1033_Mallow_pant_Oliv.TIF_ml.jpg"
+        }
+      ],
+      "createdAt": "2025-06-20T11:28:08.154Z"
+    },
+    {
+      "id": "09730f96-9b63-4d4a-af84-24dc745411fc",
+      "name": "FINIVO FASHION Men's Textured Casual Shirt",
+      "type": "Shirt",
+      "description": "Breathable Fabric: Made from lightweight Popcorn fabric, it keeps you cool and comfortable in the summer heat.",
+      "cover": "https://m.media-amazon.com/images/I/51cc5nslUzL._SY741_.jpg",
+      "gallery": [
+        {
+          "id": "b1590c53-3955-4f07-b344-c940a2784a8d",
+          "url": "https://m.media-amazon.com/images/I/51YEjrnCG0L._SY741_.jpg"
+        }
+      ],
+      "createdAt": "2025-06-20T11:37:37.787Z"
+    },
+    {
+      "id": "42bdfda2-8943-45a5-a3fa-cb4a40299ef5",
+      "name": "Campus Men's North Plus Running Shoes",
+      "type": "Shoes",
+      "description": "Breathable Shoes' Upper — These walking shoes come with a knitted vamp upper that promotes airflow, making these feel like second-skin!",
+      "cover": "https://m.media-amazon.com/images/I/71J9kQnmdHL._SY695_.jpg",
+      "gallery": [
+        {
+          "id": "8b5412fe-e38a-4285-8d18-85e0e2d4d490",
+          "url": "https://m.media-amazon.com/images/I/61c8zXBeHdL._SY695_.jpg"
+        },
+        {
+          "id": "22f919fe-6098-4d07-9c80-e3a920ed33dd",
+          "url": "https://m.media-amazon.com/images/I/71RDMnfYBPL._SY695_.jpg"
+        },
+        {
+          "id": "1c08d0e8-37dd-4843-8bc3-66f19ebf96a5",
+          "url": "https://m.media-amazon.com/images/I/711vKbqYpCL._SY695_.jpg"
+        }
+      ],
+      "createdAt": "2025-06-21T14:38:44.221Z"
+    },
+    {
+      "id": "2c72a7c7-ee02-4328-a801-ddb9de6e7457",
+      "name": "Physix Gear Sport Full Length Orthotic Insoles",
+      "type": "Sports Gear",
+      "description": "ARCH SUPPORT: The Physix Gear Sport high arch support designed insole robustly functions to balance the force structure of the foot, providing a convenient and extremely soothing solution for those with flat feet, runner's knee, shin splints and achilles tendinitis. It relieves metatarsal arch and heel pain, corrects abnormal walking patterns, relieves metatarsalgia (ball of foot pain), helps with patellofemoral syndrome (knee pain), plantar fasciitis and helps low back pain.\nSUPERIOR MATERIAL: Crafted from high-quality and durable medical-grade Dual Base Layered High-performance EVA foam and PU material, these comfortable orthotic insoles make your feet feel like they're walking on clouds! Deep Heel Cradle for Stability, Anti-Microbial Top Fabric and a Low Profile Ultra-Thin Design ensures your feet get the best tender loving care they deserve - anywhere, anytime, use after use! Perfect for improving performance physical activity.\nROBUST FUNCTIONALITY: Perfect for rock climbing, ball games, sports, camping, running & more. Also great for those who stand on their feet for prolonged periods of time such as retail employees and service industry workers. The ergonomically designed lightweight orthotic show and arch support insoles provide long lasting hours of comfort! Shock absorption ensures reduction of muscle fatigue in feet & legs. Ideal for work shoes/boots, sneakers, casual shoes and hiking shoes.",
+      "cover": "https://m.media-amazon.com/images/I/912PcGSXbWL._SX679_.jpg",
+      "gallery": [
+        {
+          "id": "c7d52b20-26fd-4531-a9a5-e6b6beb53b8d",
+          "url": "https://m.media-amazon.com/images/I/81VxVdFvjpL._SX679_.jpg"
+        },
+        {
+          "id": "81216d30-24da-4fcd-8015-8090f02fd9ff",
+          "url": "https://m.media-amazon.com/images/I/81hPNnfMsnS._SX679_.jpg"
+        },
+        {
+          "id": "28e9de3d-e885-4d42-946c-da63b1b76840",
+          "url": "https://m.media-amazon.com/images/I/9188CqxrX6L._SX679_.jpg"
+        },
+        {
+          "id": "850562fd-2cb5-472b-8dc0-c4bdbe93f743",
+          "url": "https://m.media-amazon.com/images/I/91wJBl0ir0L._SX679_.jpg"
+        }
+      ],
+      "createdAt": "2025-06-21T14:47:55.128Z"
+    }
+  ]
+}

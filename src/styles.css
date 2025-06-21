@@ -1,0 +1,10 @@
+.img-thumbnail {
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.08);
+  border-color: #007bff !important;
+  box-shadow: 0 0 8px rgba(0,123,255,0.3);
+  z-index: 1;
+}
