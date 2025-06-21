@@ -48,7 +48,6 @@ const ItemModal = ({ item, onClose }) => {
         style={{ maxWidth: 900 }}
       >
         <div className="modal-content p-4" style={{ borderRadius: 20, boxShadow: '0 8px 32px rgba(0,0,0,0.18)' }}>
-          {/* Close Button */}
           <button
             type="button"
             className="btn-close position-absolute"
@@ -58,7 +57,6 @@ const ItemModal = ({ item, onClose }) => {
           ></button>
           <div className="modal-body">
             <div className="row align-items-center">
-              {/* Images on the left */}
               <div className="col-6 d-flex">
                 <div className="d-flex flex-column align-items-center gap-2 me-3">
                   {images.map((img, idx) => (
@@ -81,7 +79,6 @@ const ItemModal = ({ item, onClose }) => {
                   />
                 </div>
               </div>
-              {/* Details on the right */}
               <div className="col-6">
                 <h2 className="fw-bold mb-4" style={{ fontSize: '2rem' }}>{item.name}</h2>
                 <p><strong>Type:</strong> {item.type}</p>

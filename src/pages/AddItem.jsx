@@ -2,11 +2,11 @@ import React, { useState, useContext, useEffect } from 'react';
 import { ItemContext } from '../context/ItemContext';
 import { v4 as uuidv4 } from 'uuid';
 import { FaPlus, FaImage } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom'; // ✅ Added
+import { useNavigate } from 'react-router-dom';
 
 const AddItem = () => {
-  const { addItem } = useContext(ItemContext);
-  const navigate = useNavigate(); // ✅ Navigation hook
+  const { addItem, items } = useContext(ItemContext);
+  const navigate = useNavigate();
 
   const [name, setName] = useState('');
   const [type, setType] = useState('');
@@ -72,13 +72,24 @@ const AddItem = () => {
       return;
     }
 
+    // Generate next numeric id for the item
+    const nextId = items.length > 0
+      ? Math.max(...items.map(item => Number(item.id) || 0)) + 1
+      : 1;
+    let galleryIdStart = 1;
+    if (items.length > 0) {
+      const allGalleryIds = items.flatMap(item => item.gallery.map(g => Number(g.id) || 0));
+      if (allGalleryIds.length > 0) {
+        galleryIdStart = Math.max(...allGalleryIds) + 1;
+      }
+    }
+    let galleryIdCounter = galleryIdStart;
     const gallery = galleryPreviews.map((url) => ({
-      id: uuidv4(),
+      id: galleryIdCounter++,
       url,
     }));
-
     addItem({
-      id: uuidv4(),
+      id: nextId,
       name,
       type,
       description,

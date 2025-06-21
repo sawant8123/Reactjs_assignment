@@ -24,7 +24,7 @@ export const ItemProvider = ({ children }) => {
     });
   };
 
-  // 🧨 Delete Item
+  //  Delete Item
   const removeItem = (id) => {
     setItems(prev => prev.filter(item => item.id !== id));
 
